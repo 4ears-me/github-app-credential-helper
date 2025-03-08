@@ -1,0 +1,15 @@
+
+version: 2
+
+updates:
+  - package-ecosystem: gomod
+    directories:
+      - /
+      - /github-credential-github-app-sm
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: github-actions
+    directory:
+    schedule:
+      interval: weekly
